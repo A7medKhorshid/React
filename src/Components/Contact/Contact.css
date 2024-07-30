@@ -1,0 +1,65 @@
+.contact{
+    padding-top: 150px;
+    padding-bottom: 70px;
+    color: #2C3E50;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #2C3E50;
+}
+
+.lines{
+    width: 80px;
+    height: 4px;
+    background-color: #2C3E50;
+}
+
+/* .inputs{
+    width: 60%;
+}
+ */
+
+.forma{
+    width: 60%;
+}
+
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-top: 35px !important;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+.send-btn{
+    padding: 6px 10px;
+    background-color: #1ABC9C;
+    margin-top: 20px !important;
+    border: none;
+    color: white;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .forma{
+    width: 100% !important;
+  }
+}
